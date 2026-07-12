@@ -1,5 +1,10 @@
 const slides = document.querySelectorAll(".slide");
 
+const currentSlide = document.getElementById("current-slide");
+const totalSlide = document.getElementById("total-slide");
+
+totalSlide.textContent = String(slides.length).padStart(2,"0");
+
 const next = document.querySelector(".next");
 const prev = document.querySelector(".prev");
 
@@ -12,7 +17,9 @@ function showSlide(index){
     });
 
     slides[index].classList.add("active");
-
+currentSlide.textContent =
+    String(index + 1).padStart(2,"0");
+    
 }
 
 next.addEventListener("click",()=>{

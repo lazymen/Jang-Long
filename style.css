@@ -202,3 +202,17 @@ main{
     opacity:.45;
 
 }
+
+.slide-count{
+
+    margin-top:18px;
+
+    text-align:center;
+
+    font-size:11px;
+
+    letter-spacing:2px;
+
+    color:#777;
+
+}
