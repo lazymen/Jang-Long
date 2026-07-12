@@ -205,14 +205,20 @@ main{
 
 .slide-count{
 
-    margin-top:18px;
+    position:absolute;
 
-    text-align:center;
+    left:14px;
 
-    font-size:11px;
+    bottom:12px;
 
-    letter-spacing:2px;
+    z-index:20;
 
-    color:#777;
+    font-family:"Courier New", monospace;
+
+    font-size:8px;
+
+    letter-spacing:1px;
+
+    color:rgba(255,255,255,.75);
 
 }
