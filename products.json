@@ -1,0 +1,48 @@
+[
+    {
+        "id": "0001",
+        "name": "Champion Reverse Weave Sweatshirt",
+        "price": 89000,
+        "size": "L",
+        "country": "Made in USA",
+        "era": "1990s",
+        "category": "sweatshirt",
+        "status": "available",
+        "description": "Natural fading throughout. Small repair on right sleeve.",
+        "images": [
+            "main.jpg",
+            "01.jpg",
+            "02.jpg",
+            "03.jpg",
+            "04.jpg"
+        ]
+    },
+    {
+        "id": "0002",
+        "name": "Levi's 501 Made in USA",
+        "price": 129000,
+        "size": "34",
+        "country": "Made in USA",
+        "era": "1990s",
+        "category": "denim",
+        "status": "available",
+        "description": "Classic straight fit with natural fading.",
+        "images": [
+            "main.jpg"
+        ]
+    },
+    {
+        "id": "0003",
+        "name": "Vintage Nike Tee",
+        "price": 59000,
+        "size": "XL",
+        "country": "Made in USA",
+        "era": "1990s",
+        "category": "t-shirt",
+        "status": "available",
+        "description": "Soft cotton with vintage fade.",
+        "images": [
+            "main.jpg"
+        ]
+    }
+]

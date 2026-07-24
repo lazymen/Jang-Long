@@ -180,7 +180,49 @@ header p {
    SHOP
 ======================================= */
 
+.category-menu {
 
+    display: flex;
+
+    justify-content: center;
+
+    gap: 22px;
+
+    margin: 40px 0 70px;
+
+    flex-wrap: wrap;
+
+}
+
+.category-button {
+
+    background: none;
+
+    border: none;
+
+    cursor: pointer;
+
+    font-size: 11px;
+
+    letter-spacing: .6px;
+
+    color: #777;
+
+    transition: .25s;
+
+}
+
+.category-button:hover {
+
+    color: #111;
+
+}
+
+.category-button.active {
+
+    color: #111;
+
+}
 
 
 
@@ -425,6 +467,36 @@ header p {
     border: none;
 
     border-top: 1px solid #ddd;
+
+}
+
+.measurement-list {
+
+    margin-top: 24px;
+
+}
+
+.measurement-item {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    font-size: 13px;
+
+    margin-bottom: 6px;
+
+}
+
+.measurement-label {
+
+    color: #666;
+
+}
+
+.measurement-value {
+
+    color: #111;
 
 }
 
